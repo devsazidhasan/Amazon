@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.top-header{
+    background: rgb(9, 9, 9);
+    color:#fff;
+    padding: 8px 20px; 
+}
+
+.top-header .main-colum{
+    display: flex;
+    align-items: center;
+}
+
+.top-header .logo-colum{
+    width: 13%;
+}
+
+.top-header .logo-colum img{
+    width: 100px;
+}
+
+.top-header .search-colum{
+    width: 61%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.top-header .card-colum{
+    width: 22%;
+    display: flex;
+    justify-content: end;
+}
+
+  .top-header .search-colum input, .top-header .search-colum  select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+}
+
+.top-header .search-colum input:focus-visible{
+    outline: none;
+}
+.top-header .search-colum .form:hover{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.top-header .form{
+    display: flex;
+    
+}
+
+.top-header .selectoption select{
+   
+    border-radius: 5px 1px 0px 5px;
+    background: #D4D4D4; 
+    padding: 9px;
+}
+.top-header .selectoption{
+    width: 5%;
+}
+
+.top-header .searchbox{
+    width: 90%;
+   
+}
+.top-header .submitbox{
+    width: 5%;
+    position: relative;
+}
+.top-header .search-colum input{
+    padding: 10px;
+}
+.top-header .submitbox input{
+    background: #febd69;
+}
+
+.top-header .submitbox::after{
+    content: '\f002';
+    position: absolute;
+    font-family: fontawesome;
+    left: 50%;
+    top: 50%;
+    color: black;
+    font-size: 20px;
+    transform:translate(-50%,-50%)
+     
+}
+
+.top-header .logo-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.top-header a{
+    color: white;
+    text-decoration: none;
+}
+.top-header .location:hover{
+    border: 2px solid white;
+}
+.top-header .location{
+    position: relative;
+    padding-top: 12px;
+}
+.top-header .location:after{
+    content: '\f3c5';
+    position: absolute;
+    font-family: fontawesome;
+    top: 50%;
+    transform: translateX( -50px);
+    left: 30px;
+    font-size: 20px;
+
+}
+
+.top-header li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+}
+.top-header li:last-child{
+    padding-right: 0;
+}
+.top-header .card-colum strong{
+    display: block;
+}
+.top-header .card-colum ul{
+    display: flex;
+    align-items: center;
+}
+.top-header .card-colum select{
+     font-size: 16px;
+     background: transparent;
+     color: #fff;
+     border: none;
+     font-weight: 500;
+     width: 45px;
+
+}
+
+.top-header .card-colum{
+    padding-right: 25px;
+}
+
+.top-header .card-colum .flag{
+    position: relative ;
+    padding-left: 35px;
+}
+
+.top-header .card-colum .flag::after{
+    content: '';
+    position: absolute;
+    background: url(./img/american-flag-vector-24060639.jpg);
+    width: 27px;
+    height: 18px;
+    left: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
