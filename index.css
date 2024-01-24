@@ -166,6 +166,33 @@
 
 
 
+/* <!-- ............End Top Header...............    --> */
 
 
+.main-header{
+    display: flex;
+    background: #232F3E;
+    padding: 10px 20px;
+}
 
+.main-header li{
+    display: inline-block;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.main-header .cleck-hear strong{
+    color:#fff ;
+    position: relative;
+    padding: 35px;
+}
+
+.main-header .cleck-hear strong::after{
+    content: '\f0c9';
+    position: absolute;
+    font-family: fontawesome;
+    left: 0;
+    padding-left: 10px;
+    transform: translateY( 1px);
+}
