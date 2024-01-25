@@ -1,14 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-
-    
+    font-family: 'Roboto', sans-serif;   
+}
+body{
+    background: #E3E6E6;
 }
 .top-header{
     background: rgb(9, 9, 9);
     color:#fff;
     padding: 8px 20px; 
+   
 }
 
 .top-header .main-colum{
@@ -220,3 +222,96 @@
     border: 1px solid white;
 }
  
+/* 
+
+<!-- ..............End Main Header................ --> */
+
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.banner-section img{
+    width: 100%;
+}
+
+/* <!-- .............End Banner Section........... --> */
+
+.gaming-accessories-section .main-colum{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+.gaming-accessories-section .main-colum img{
+    width: 100%;
+}
+.gaming-accessories-section .image-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+
+}
+.gaming-accessories-section .flex-colum{
+    background: #fff;
+    padding: 24px 20px;
+}
+
+.gaming-accessories-section .flex-colum h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.gaming-accessories-section .flex-colum a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    padding-top: 18px;
+    display: inline-block;
+}
+
+.gaming-accessories-section .flex-colum a:hover{
+    color: #C7511F;
+}
+
+/* <!-- ..........End Gaming accessories section.............. --> */
+
+.shop-deals-in-fashion .main-colum{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding-top: 20px;
+}
+
+.shop-deals-in-fashion .main-colum img{
+    width: 100%;
+}
+.shop-deals-in-fashion .image-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+
+}
+.shop-deals-in-fashion .flex-colum{
+    background: #fff;
+    padding: 24px 20px;
+}
+
+.shop-deals-in-fashion .flex-colum h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.shop-deals-in-fashion .flex-colum a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    padding-top: 18px;
+    display: inline-block;
+}
+
+.shop-deals-in-fashion .flex-colum a:hover{
+    color: #C7511F;
+}
