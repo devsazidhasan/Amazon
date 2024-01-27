@@ -9,8 +9,7 @@ body{
 .top-header{
     background: rgb(9, 9, 9);
     color:#fff;
-    padding: 8px 20px; 
-   
+    padding: 8px 20px;
 }
 
 .top-header .main-colum{
@@ -253,9 +252,13 @@ body{
     column-gap: 15px;
 
 }
+
 .gaming-accessories-section .flex-colum{
     background: #fff;
     padding: 24px 20px;
+}
+.gaming-accessories-section .flex-colum p{
+    font-size: 13px;
 }
 
 .gaming-accessories-section .flex-colum h2{
@@ -299,6 +302,10 @@ body{
     padding: 24px 20px;
 }
 
+.shop-deals-in-fashion .flex-colum p{
+    font-size: 13px;
+}
+
 .shop-deals-in-fashion .flex-colum h2{
     font-size: 20px;
     padding-bottom: 10px;
@@ -315,3 +322,93 @@ body{
 .shop-deals-in-fashion .flex-colum a:hover{
     color: #C7511F;
 }
+
+/* <!-- ............ End Shop deals in fashion............. --> */
+
+
+.best-sellers-in-books .main-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.best-sellers-in-books .flex-colum{
+    background: #fff;
+    padding-left: 15px;
+}
+
+.best-sellers-in-books .flex-colum img{
+    padding-right: 20px;   
+}
+
+.best-sellers-in-books .flex-colum h2{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px; 
+}
+
+
+
+/* 
+<!-- 
+............End Best Sellers in Books.............. --> */
+
+
+.best-sellers-in-toys .main-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.best-sellers-in-toys .flex-colum{
+    background: #fff;
+    padding-left: 15px;
+}
+
+.best-sellers-in-toys .flex-colum img{
+    padding-right: 20px; 
+    
+}
+
+.best-sellers-in-toys .flex-colum h2{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+/*-- .............End Best Sellers in Toys & Games.........*/
+
+
+
+.personal-care .main-img {
+    display: grid;
+   
+    padding-top: 20px;
+}
+
+.personal-care .flex-colum{
+    background: #fff;
+    padding-left: 15px;
+}
+
+.personal-care .flex-colum img{
+    padding-right: 20px; 
+    
+}
+
+.personal-care .flex-colum h2{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+}
+
+.personal-care .flex-colum .padding-left{
+    padding-left: 50px;
+}
+
+
+/* .........End Personal Care...................... */
