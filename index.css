@@ -236,8 +236,12 @@ body{
 
 /* <!-- .............End Banner Section........... --> */
 
-.gaming-accessories-section .main-colum{
+.gaming-accessories-section{
+    margin-top:  -300px;
+}
 
+.gaming-accessories-section .main-colum{
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 25px;
@@ -325,62 +329,27 @@ body{
 
 /* <!-- ............ End Shop deals in fashion............. --> */
 
-
-.best-sellers-in-books .main-img {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 20px;
+.product-slide{
+    margin-top: 18px;
 }
+.product-slide .main-colum{
+    column-count: 7;
+    text-align: center;
+    padding: 25px;
 
-.best-sellers-in-books .flex-colum{
-    background: #fff;
-    padding-left: 15px;
 }
-
-.best-sellers-in-books .flex-colum img{
-    padding-right: 20px;   
+.product-slide .container{
+    background-color:#fff ;
 }
-
-.best-sellers-in-books .flex-colum h2{
-    font-size: 20px;
+.product-slide h2{
+    padding-left: 55px;
     padding-top: 25px;
-    padding-bottom: 10px; 
 }
-
 
 
 /* 
 <!-- 
 ............End Best Sellers in Books.............. --> */
-
-
-.best-sellers-in-toys .main-img {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 20px;
-}
-
-.best-sellers-in-toys .flex-colum{
-    background: #fff;
-    padding-left: 15px;
-}
-
-.best-sellers-in-toys .flex-colum img{
-    padding-right: 20px; 
-    
-}
-
-.best-sellers-in-toys .flex-colum h2{
-    font-size: 20px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-   
-}
-
-
-
-/*-- .............End Best Sellers in Toys & Games.........*/
-
 
 
 .personal-care .main-img {
@@ -412,3 +381,121 @@ body{
 
 
 /* .........End Personal Care...................... */
+
+.discound-section{
+    margin-top: 18px;
+}
+.discound-section .main-colum{
+    column-count: 6;
+    padding: 15px;
+}
+.discound-section .container{
+    background: #fff;
+}
+.discound-section h2{
+    padding: 15px;
+}
+.discound-section .details button{
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    color: #fff;
+
+}
+
+
+
+/* <!-- 
+........... End Discound-section.............. --> */
+
+.singin-section{
+    background: #fff;
+    padding: 54px 0;
+    margin-top: 18px;
+
+}
+.singin-section .sing-in{
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    padding: 44px 0;
+    border-radius: 5px;
+}
+
+.sing-in button{
+    background-color: #ff9000;
+    width: 13%;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.sing-in a{
+    text-decoration: none;
+}
+
+
+/* .........End Singin section.......... */
+
+.back-top{
+    background-color: #485769;
+}
+
+.back-top .back{
+    padding: 20px 0;
+    text-align: center;
+}
+.back a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* <!-- ..........End Back top................ --> */
+
+
+.amazon-pyment-section{
+   background-color:#232F3E ;
+   height: 500px;
+   color: #fff;
+}
+
+.amazon-pyment-section .main-colum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 40px 300px;
+}
+
+.amazon-pyment-section .main-colum li{
+    list-style: none;
+}
+.amazon-pyment-section .main-colum p{
+    font-size: 20px;
+}
+
+.amazon-pyment-section .border{
+    border: .1px solid #ddd;
+}
+.amazon-pyment-section .amazon-img img{
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+    padding-left: 50px;
+}
+.amazon-pyment-section .amazon-img select , button{
+    padding: 12px;
+    background-color: #232F3E;
+    color: #fff;
+    padding-left: 0;
+
+
+}
+.amazon-pyment-section .amazon-img{
+    padding: 60px 575px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: -10px;
+
+}
+
+/* ................End Amazon pyment section............... */
+
