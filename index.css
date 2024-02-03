@@ -485,7 +485,7 @@ body{
     padding: 12px;
     background-color: #232F3E;
     color: #fff;
-    padding-left: 0;
+    margin-left: 5px;
 
 
 }
@@ -499,3 +499,39 @@ body{
 
 /* ................End Amazon pyment section............... */
 
+.ditails-section{
+    background: #131A22;
+}
+.ditails-section .main-colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 300px;
+}
+.ditails-section .main-colum-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 500px;
+}
+
+.ditails-section .main-colum ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffff;
+}
+.ditails-section .main-colum a{
+    font-size: 13px;
+}
+.ditails-section .main-colum-5 a{
+    font-size: 13px;
+}
+.ditails-section .last{
+    color: #ffff;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+
+
+
+/* ....................End..................... */
